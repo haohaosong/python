@@ -56,5 +56,12 @@ for v in d.values():
 for k,v in d.items():
 	print(k,v)
 
+#for后面紧跟到第一个元素是enumerate的返回值
+for i,value in enumerate(['A','B','C']):
+	print(i,value)
+
+#打印复杂链表
+for x,y in ([[1,2],[2,3],[3,4]]):
+	print(x,y)
 
 
