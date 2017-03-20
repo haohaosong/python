@@ -31,3 +31,30 @@ for x in [1,2,3,4,5]:
 for x in iter([1,2,3,4,5]):
 	print(x)
 
+#用next打印list
+#next(obj)的作用是，将obj指向下一个，但返回的是变化前到值
+it = iter([1,2,3,4,5])
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+
+#定义一个dict
+d = {'1号学员':1,'2号学员':2,'3号学员':3}
+
+#以下都是从后向前进行打印
+#打印字典中的key值
+for k in d.keys():
+	print(k)
+
+#打印字典中的value值
+for v in d.values():
+	print(v)
+
+#打印字典中的key以及value
+for k,v in d.items():
+	print(k,v)
+
+
+
